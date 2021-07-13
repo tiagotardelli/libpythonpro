@@ -7,6 +7,8 @@ Link para o curso [Python Pro](https://pythonpro.com.br/)
 
 [![Build Status](https://travis-ci.com/tiagotardelli/libpythonpro.svg?branch=main)](https://travis-ci.com/tiagotardelli/libpythonpro)
 
+[![Build Status](https://github.com/tiagotardelli/libpythonpro.scg?branch=main/actions/workflows/libpythonpro.yml/badge.svg)]
+
 Suportada versão 3 de Python
 
 Para instalar:
