@@ -7,8 +7,11 @@ Link para o curso [Python Pro](https://pythonpro.com.br/)
 
 [![Build Status](https://travis-ci.com/tiagotardelli/libpythonpro.svg?branch=main)](https://travis-ci.com/tiagotardelli/libpythonpro)
 
-[![Build Status](https://github.com/tiagotardelli/libpythonpro.scg?branch=main/actions/workflows/libpythonpro.yml/badge.svg)]
+![Build Status](https://github.com/tiagotardelli/libpythonpro/actions/workflows/libpythonpro.yml/badge.svg)
 
+[![Updates](https://pyup.io/repos/github/tiagotardelli/libpythonpro/shield.svg)](https://pyup.io/repos/github/tiagotardelli/libpythonpro/)
+[![Python 3](https://pyup.io/repos/github/tiagotardelli/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/tiagotardelli/libpythonpro/)
+Restructured Text
 Suportada versão 3 de Python
 
 Para instalar:
