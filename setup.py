@@ -96,20 +96,19 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpythonpro"
+PACKAGE = "libpythonpro_tardelli"
 NAME = PACKAGE
-DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools."
+DESCRIPTION = u"Módulo para exemplificar construção de projetos Python no curso PyTools."
 AUTHOR = "Tiago Tardelli"
 AUTHOR_EMAIL = "tiagob.tardelli@gmail.com"
 URL = "https://github.com/tiagotardelli/libpythonpro"
 VERSION = __import__(PACKAGE).__version__
 
-
 setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
-    long_description=read('README.md'),
+    long_description=read("README.md"),
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
