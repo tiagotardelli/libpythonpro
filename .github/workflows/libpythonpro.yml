@@ -22,9 +22,7 @@ jobs:
         run: flake8 .
       - name: pytest
         run: pytest libpythonpro_tardelli --cov=libpythonpro_tardelli
-
-steps:
-  - name: "Upload coverage to Codecov"
-    uses: codecov/codecov-action@v1
-    with:
-      fall_ci_if_error: true
+      - name: "Upload coverage to Codecov"
+        uses: codecov/codecov-action@v1
+        with:
+          fall_ci_if_error: true
