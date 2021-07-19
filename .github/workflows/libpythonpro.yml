@@ -17,8 +17,14 @@ jobs:
         with:
           python-version: 3.9
       - name: install dependencies
-        run: pip install -r requirements-dev.txt
+        run: pip install -r requirements-dev.txt codecov
       - name: flake8
         run: flake8 .
       - name: pytest
-        run: pytest libpythonpro_tardelli
+        run: pytest libpythonpro_tardelli --cov=libpythonpro_tardelli
+
+steps:
+  - name: "Upload coverage to Codecov"
+    uses: codecov/codecov-action@v1
+    with:
+      fall_ci_if_error: true
