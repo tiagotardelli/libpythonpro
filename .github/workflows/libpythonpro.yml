@@ -17,7 +17,8 @@ jobs:
         with:
           python-version: 3.9
       - name: install dependencies
-        run: pip install -r requirements-dev.txt codecov
+        run: pip install -q pipenv  codecov
+        run: pipenv sync --dev
       - name: flake8
         run: flake8 .
       - name: pytest
