@@ -4,7 +4,6 @@ update: insecure
 branch: main
 schedule: "every day"
 requirements:
-  - requirements.txt:
-      update: insecure
-  - requirements-dev.txt:
+  - Pipfile
+  - Pipfile.lock
       update: insecure
