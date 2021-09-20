@@ -6,4 +6,3 @@ schedule: "every day"
 requirements:
   - Pipfile
   - Pipfile.lock
-      update: insecure
