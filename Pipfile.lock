@@ -21,11 +21,8 @@
             "version": "==2023.7.22"
         },
         "charset-normalizer": {
-            "hashes": [
-                "sha256:5d209c0a931f215cee683b6445e2d77677e7e75e159f78def0db09d68fafcaa6",
-                "sha256:5ec46d183433dcbd0ab716f2d7f29d8dee50505b3fdb40c6b985c7c4f5a3591f"
-            ],
-            "version": "==2.0.6"
+            "hashes": [],
+            "version": "==3.2.0"
         },
         "idna": {
             "hashes": [
